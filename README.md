@@ -12,8 +12,6 @@ The only important thing to know is to stop the program by either closing Python
 
 Python 3.6.3
 
-### Status
-
-In progress
+### Status: In progress
 
 #### [back to the top](#flashcards)
