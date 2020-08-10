@@ -5,16 +5,24 @@ This Python created keylogger saves key strokes after a configerable amount of t
 
 ### Usage
 
-After opening the file, the program begins tracking key strokes and automatically sends the data in the background.
+After opening the file, the program begins tracking key strokes and automatically sends the data in the background. Make sure to edit these variables before running your program.
 
-SAVINGDELAY = 10 This global variable must be set before running to determine how long to wait before emailing keystrokes.
+Be sure to input your email and password into the raw code before running
+``` python
+GMAIL = ""
+PASSWORD = ""
+```
 
-'''
-  GMAIL = ""
-  PASSWORD = ""
-'''
+Edit the SAVINGDELAY variable before running to specify how long to wait before sending each email
+```python
+SAVINGDELAY = 10
+```
 
-The only important thing to know is to stop the program by either closing Python or holding ``` alt ``` + ```down arrow ```
+The STOPCOMBO variable are the keys you have to hold to stop the program from running in the background (default is alt+down arrow)
+```python
+STOPCOMBO = {keyboard.Key.alt_l, keyboard.Key.down}
+```
+
 
 ### Launch
 
